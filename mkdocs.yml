@@ -28,3 +28,6 @@ plugins:
 
 nav:
   - Home: index.md
+
+extra_css:
+  - stylesheets/rtl.css
