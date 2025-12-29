@@ -30,6 +30,35 @@ plugins:
 nav:
   - Home: index.md
 
+  - End User Guide:
+      - Overview: end-user/index.md
+      - Getting Started: end-user/getting-started.md
+      - User Roles & Access: end-user/user-roles.md
+      - Modules:
+          - Vaccine Supply and Stock Management (VSSM): end-user/modules/vssm.md
+          - Cold Chain Equipment Inventory (CCEI): end-user/modules/ccei.md
+          - Temperature Monitoring: end-user/modules/temperature-monitoring.md
+          - Reports: end-user/modules/reports.md
+      - Common Tasks: end-user/common-tasks.md
+      - FAQs: end-user/faqs.md
+
+  - Admin Guide:
+      - Overview: admin/index.md
+      - System Overview: admin/system-overview.md
+      - User Management: admin/user-management.md
+      - Configuration:
+          - Facility Hierarchy: admin/configuration/facility-hierarchy.md
+          - Product Catalog: admin/configuration/product-catalog.md
+          - Permissions: admin/configuration/permissions.md
+      - Integrations:
+          - DHIS2: admin/integrations/dhis2.md
+          - RTM: admin/integrations/rtm.md
+      - Reporting: admin/reporting.md
+      - Troubleshooting: admin/troubleshooting.md
+
+  - Release Notes:
+      - Release Notes: release-notes/index.md
+
 extra:
   alternate:
     - name: English
