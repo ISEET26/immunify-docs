@@ -1,0 +1,14 @@
+/* RTL for Arabic and Kurdish Sorani */
+html[lang="ar"] body,
+html[lang="ku"] body {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Fix common Material elements */
+html[lang="ar"] .md-nav,
+html[lang="ku"] .md-nav,
+html[lang="ar"] .md-sidebar,
+html[lang="ku"] .md-sidebar {
+  direction: rtl;
+}
