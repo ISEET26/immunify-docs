@@ -35,7 +35,7 @@ nav:
       - Getting Started: end-user/getting-started.md
       - User Roles & Access: end-user/user-roles.md
       - Modules:
-          - Vaccine Supply and Stock Management (VSSM): end-user/modules/vssm.md
+          - Vaccine Supply and Stock Management (VSSM): end-user/modules/index.md
           - Cold Chain Equipment Inventory (CCEI): end-user/modules/ccei.md
           - Temperature Monitoring: end-user/modules/temperature-monitoring.md
           - Reports: end-user/modules/reports.md
