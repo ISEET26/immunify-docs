@@ -13,6 +13,7 @@ plugins:
   - search
   - i18n:
       docs_structure: folder
+      reconfigure_material: false
       languages:
         - locale: en
           name: English
@@ -21,24 +22,9 @@ plugins:
         - locale: ar
           name: العربية
           build: true
-          nav_translations:
-            Home: الرئيسية
         - locale: ku
           name: کوردی (سۆرانی)
           build: true
-          nav_translations:
-            Home: سەرەکی
-      reconfigure_material: true
 
 nav:
   - Home: index.md
-
-extra:
-  generator: false
-
-markdown_extensions:
-  - admonition
-  - footnotes
-  - tables
-  - toc:
-      permalink: true
