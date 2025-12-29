@@ -8,6 +8,7 @@ theme:
     - navigation.tabs
     - navigation.sections
     - content.code.copy
+    - header.autohide
 
 plugins:
   - search
@@ -29,5 +30,24 @@ plugins:
 nav:
   - Home: index.md
 
+extra:
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: العربية
+      link: /ar/
+      lang: ar
+    - name: کوردی (سۆرانی)
+      link: /ku/
+      lang: ku
+
 extra_css:
   - stylesheets/rtl.css
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
