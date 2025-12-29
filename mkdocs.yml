@@ -1,5 +1,5 @@
 site_name: Immunify Documentation
-site_url: https://docs.immunify.online/
+site_url: https://iseet26.github.io/immunify-docs/
 
 theme:
   name: material
@@ -33,13 +33,13 @@ nav:
 extra:
   alternate:
     - name: English
-      link: /
+      link: /immunify-docs/
       lang: en
     - name: العربية
-      link: /ar/
+      link: /immunify-docs/ar/
       lang: ar
     - name: کوردی (سۆرانی)
-      link: /ku/
+      link: /immunify-docs/ku/
       lang: ku
 
 extra_css:
